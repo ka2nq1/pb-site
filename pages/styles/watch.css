@@ -1,0 +1,86 @@
+.watch {
+  background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.719)),
+    url(/images/watchBG.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(54, 54, 54, 0.527);
+  padding: 30px;
+  border-radius: 10px;
+  color: rgb(236, 236, 236);
+  font-size: 18px;
+  text-shadow: 1px 1px 2px black;
+  width: fit-content;
+  margin: 50px auto 0 auto;
+}
+
+.trailer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.watch-title {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: center;
+  width: 200px;
+  color: rgb(161, 161, 161);
+  margin: 0;
+  margin-top: -10px;
+}
+
+.watch-title::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgb(161, 161, 161);
+}
+
+.watch-link {
+  position: relative;
+  display: inline-block;
+  color: rgb(201, 201, 201);
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.watch-link:hover {
+  color: #fff;
+}
+
+.watch-link::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  border-bottom: 1px solid grey;
+  left: 90px;
+  top: 17px;
+}
+
+.watch-link::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  border-bottom: 1px solid grey;
+  right: 90px;
+  top: 17px;
+}

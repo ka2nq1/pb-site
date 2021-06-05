@@ -1,0 +1,83 @@
+.actors {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/actorsBG.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.chr-title {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin: 0 0 20px 0;
+}
+
+.chr-title::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5px;
+  border-bottom: 2px solid gray;
+}
+
+.chr {
+  font-size: 22px;
+}
+
+.chr-img:hover {
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+
+.hero-actors {
+  background: rgba(54, 54, 54, 0.329);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 80%;
+  margin: 50px auto 0 auto;
+  border-radius: 10px;
+  color: rgb(236, 236, 236);
+  font-size: 18px;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 30px;
+}
+
+.chr-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: -30px;
+  width: 100%;
+}
+
+.chr-item {
+  width: 300px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.chr-img,
+.chr,
+.actor {
+  margin-bottom: 5px;
+}
+
+.played-by {
+  margin-right: 10px;
+}
+
+.description::before {
+  content: "";
+  display: block;
+  width: 80%;
+  margin-left: 8%;
+  height: 1px;
+  border-top: 1px solid grey;
+}

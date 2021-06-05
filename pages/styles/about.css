@@ -1,0 +1,40 @@
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/aboutBG.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text {
+  font-size: 24px;
+  line-height: 35px;
+  max-width: 600px;
+  color: rgb(236, 236, 236);
+  background: rgba(37, 37, 37, 0.377);
+  border-radius: 15px;
+  padding: 20px;
+  margin-left: 60px;
+  margin-top: 100px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.about-etimology {
+  font-size: 24px;
+  line-height: 35px;
+  max-width: 600px;
+  color: rgb(236, 236, 236);
+  background: rgba(37, 37, 37, 0.377);
+  border-radius: 15px;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 60px;
+  margin-top: 100px;
+  text-shadow: 1px 1px 2px black;
+}
